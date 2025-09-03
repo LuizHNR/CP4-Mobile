@@ -16,7 +16,7 @@ export default function App() {
       <NavigationContainer
         theme={{
           ...DefaultTheme,
-          colors: { ...DefaultTheme.colors, background: 'white', primary: '#EB4435' }
+          colors: { ...DefaultTheme.colors, background: 'white', primary: '#128ee0' }
         }}
       >
         <Stack.Navigator>
