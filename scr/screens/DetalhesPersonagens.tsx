@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 
 
-const HumanDetailsScreen = () => {
+const DetalhesPersonagens = () => {
  return (
  <View style={styles.container}>
  <Text>MovieDetailsScreen</Text>
  </View>
  )
 }
-export default HumanDetailsScreen
+export default DetalhesPersonagens
 const styles = StyleSheet.create({
  container: {
  flex: 1,

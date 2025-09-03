@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 
 
-const PersonListScreen = () => {
+const ListaPersonagens = () => {
 
  return (
  <View style={styles.container}>
@@ -11,7 +11,7 @@ const PersonListScreen = () => {
  )
 }
 
-export default PersonListScreen
+export default ListaPersonagens
 
 const styles = StyleSheet.create({
  container: {
