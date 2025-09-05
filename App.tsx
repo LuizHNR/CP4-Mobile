@@ -22,7 +22,7 @@ export default function App() {
           <Stack.Screen
             name="ListaPersonagens"
             component={ListaPersonagens}
-            options={{ title: "Personagens" }}
+            options={{ title: "Demon Slayer" }}
           />
           <Stack.Screen
             name="DetalhesPersonagens"
