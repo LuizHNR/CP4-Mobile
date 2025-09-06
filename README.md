@@ -27,6 +27,6 @@ Este projeto foi desenvolvido no contexto do curso **Mobile Application Developm
 git clone https://github.com/LuizHNR/CP4-Mobile.git
 ```
 
-### Meu Professor:
+### 👨🏻‍🏫 Meu Professor:
 
-###### Eric Alves Brito
+######  Eric Alves Brito
