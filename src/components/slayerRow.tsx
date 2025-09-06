@@ -20,7 +20,6 @@ export default function SlayerRow({ personagem }: { personagem: Personagem }) {
 
       <View style={styles.info}>
         <Text style={styles.name}>{personagem.name}</Text>
-        <Text style={styles.detail}>Raça: {personagem.race}</Text>
       </View>
     </View>
   );
@@ -28,7 +27,7 @@ export default function SlayerRow({ personagem }: { personagem: Personagem }) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "white",
+    backgroundColor:"#d4d4d4",
     flexDirection: "row",
     alignItems: "center",
     paddingVertical: 10,
@@ -53,10 +52,7 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 18,
     fontWeight: "bold",
+    textAlign: "center",
     marginBottom: 4,
-  },
-  detail: {
-    fontSize: 14,
-    color: "#555",
-  },
+  }
 });
