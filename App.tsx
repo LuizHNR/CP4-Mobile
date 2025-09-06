@@ -22,12 +22,12 @@ export default function App() {
           <Stack.Screen
             name="ListaPersonagens"
             component={ListaPersonagens}
-            options={{ title: "Demon Slayer" }}
+            options={{ title: "Demon Slayer", headerTitleAlign: "center" }}
           />
           <Stack.Screen
             name="DetalhesPersonagens"
             component={DetalhesPersonagens}
-            options={{ title: "Detalhes" }}
+            options={{ title: "Detalhes", headerTitleAlign: "center" }}
           />
         </Stack.Navigator>
       </NavigationContainer>
