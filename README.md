@@ -11,9 +11,11 @@
 
 ## Descrição do Projeto
 
-Este projeto foi desenvolvido no contexto do curso **Mobile Application Development **, com foco em criar um aplicativo que consuma uma api de personagens de Demon Slayer.
+Este projeto foi desenvolvido no contexto do curso **Mobile Application Development**, com foco em criar um aplicativo que consuma uma api de personagens de Demon Slayer.
 
-- Api: https://www.demonslayer-api.com/api/v1/characters
+- API: https://www.demonslayer-api.com/api/v1/characters
+  
+  - Documentação da API: https://www.demonslayer-api.com/documentation
 
 ---
 
