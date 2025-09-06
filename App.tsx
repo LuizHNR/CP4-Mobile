@@ -1,4 +1,5 @@
 import React from "react";
+import { Text, TouchableOpacity } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -27,7 +28,21 @@ export default function App() {
           <Stack.Screen
             name="DetalhesPersonagens"
             component={DetalhesPersonagens}
-            options={{ title: "Detalhes", headerTitleAlign: "center" }}
+            options={({ navigation }) => ({
+              title: "Detalhes",
+              headerTitleAlign: "center",
+              headerLeft: () => (
+                <TouchableOpacity
+                  onPress={() => navigation.goBack()}
+                  style={{ paddingHorizontal: 10 }}
+                >
+                  <Text style={{ color: "#0066CC", fontSize:16 }}>
+                    Demon Slayer
+                  </Text>
+                </TouchableOpacity>
+              ),
+              headerBackVisible: false,
+            })}
           />
         </Stack.Navigator>
       </NavigationContainer>
